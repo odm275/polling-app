@@ -12,7 +12,7 @@ class Header extends Component {
             case null:
                 return 'Loading...';
             case false:
-                return <Link to={Login}/>
+                return <Link to={Login}> Login </Link>
             default:
                 return [
                     <li key="1">New Poll</li>,
